@@ -1,6 +1,6 @@
 
 require('dotenv').config();
-const app = require("express")();
+
 
 const port = process.env.PORT || 3000;
 
@@ -29,9 +29,6 @@ const method = require('./methods');
 const client = new SteamUser();
 const community = new SteamCommunity();
 
-app.listen(port, () =>{
-	console.log(`Server is running on port ${port}.`)
-})
 
 
 const LogOnOptionsAUTO = {
