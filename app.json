@@ -3,5 +3,27 @@
   "description": "A bot for boosting Dota2 playtime hour",
   "repository": "https://github.com/m0rsmordre/Steam-Hour-Booster",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "dota2", "steam", "boosting"]
+  "keywords": ["node", "dota2", "steam", "boosting", "bot"],
+  "env": 
+  {
+    "loginAccName":
+    {
+      value:""
+    },
+    
+    "password":
+    {
+      value:""
+    },
+    
+    "shared_secret":
+    {
+      value:""
+    },
+    
+    "GameID":
+    {
+      value:570
+    }
+  }
 }
