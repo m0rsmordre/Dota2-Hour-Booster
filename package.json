@@ -1,5 +1,5 @@
 {
-  "name": "steam-games-idle",
+  "name": "steam-hour-booster",
   "version": "1.0.2",
   "description": "Node.js based script for idling (boosting playtime in hours) for choosen game. ",
   "main": "index.js",
@@ -24,8 +24,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/Refloow/Steam-Games-Idle.git"
+    "url": "git+https://https://github.com/m0rsmordre/Steam-Hour-Booster.git"
   },
-  "author": "Refloow (MajokingGames)",
+  "author": "m0rsmordre",
   "license": "MIT"
 }
