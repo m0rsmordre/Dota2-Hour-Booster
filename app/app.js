@@ -1,5 +1,8 @@
 
 require('dotenv').config();
+const express = require('express');
+const port = process.env.PORT || 3000;
+
 
 
 try {
@@ -43,7 +46,9 @@ const LogOnOptionsMANUAL = {
 }*/
 
 
-
+app.listen(port, function(){
+    console.log("Express server is running on port " + port)
+}) 
 
 if(method.AutoGenerateLoginCodes())
     {
