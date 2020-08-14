@@ -29,7 +29,12 @@ const method = require('./methods');
 const client = new SteamUser();
 const community = new SteamCommunity();
 
+let express = require('express'), app = express()
 
+
+app.listen(port, () => {
+    console.log("Server listening on port " + port);
+});
 
 const LogOnOptionsAUTO = {
 	accountName: process.env.loginAccName,
