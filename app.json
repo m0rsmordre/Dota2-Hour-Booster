@@ -4,29 +4,22 @@
   "repository": "https://github.com/m0rsmordre/Steam-Hour-Booster",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "dota2", "steam", "boosting", "bot"],
-  "env":{
-    "loginAccName":
-    {
-      value:"id",
-      description: "Account ID"
+  
+  "env": {
+    "loginAccName": {
+      "description": "Login ID."
     },
-    
-    "password":
-    {
-      value:"pass",
-      description: "Password"
+    "password": {
+      "description": "Password",
+      "value": "Pass"
     },
-    
-    "shared_secret":
-    {
-      value:"shared_secret",
-      description: "Shared Secret U can find it in Steam Desktop Authenticator ma files"
+    "shared_secret": {
+      "description": "The number of processes to run.",
+      "value": "Shared secret you can find your shared secret in Steam Desktop Authenticator ma Files"
     },
-    
-    "GameID":
-    {
-      value:"570",
-      description: "Game ID to Boost"
+    "GameID": {
+      "description": "Game to boost",
+      "value": "570"
     }
   }
 }
