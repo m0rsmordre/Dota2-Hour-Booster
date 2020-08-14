@@ -20,6 +20,9 @@
     "GameID": {
       "description": "Game to boost",
       "value": "570"
+    },
+    "PORT": {
+      "value": "3000"
     }
   }
 }
