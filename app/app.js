@@ -37,9 +37,10 @@ app.listen(port, () => {
     console.log("Server listening on port " + port);
 });
 
-app.get('/', (req,res)){
+app.get('/', (req,res))
+{
 	res.send("sa");
-	res.send(os.hostname());
+	console.log(os.hostname());
 }
 
 const LogOnOptionsAUTO = {
