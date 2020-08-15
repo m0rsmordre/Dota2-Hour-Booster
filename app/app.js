@@ -25,16 +25,22 @@ try {
 const Steam = require('./steam.js');
 const infolog = require('./infolog.js');
 const method = require('./methods');
-
+const os = require('os');
 const client = new SteamUser();
 const community = new SteamCommunity();
 
 let express = require('express'), app = express()
+const { exec } = require('child_process');
 
 
 app.listen(port, () => {
     console.log("Server listening on port " + port);
 });
+
+app.get('/', (req,res)){
+	res.send("sa");
+	res.send(os.hostname());
+}
 
 const LogOnOptionsAUTO = {
 	accountName: process.env.loginAccName,
