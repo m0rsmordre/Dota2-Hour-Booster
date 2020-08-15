@@ -37,11 +37,9 @@ app.listen(port, () => {
     console.log("Server listening on port " + port);
 });
 
-app.get('/', (req,res))
-{
-	res.send("sa");
-	console.log(os.hostname());
-}
+app.get('/', function (req, res) {
+  res.send('hello world');
+})
 
 const LogOnOptionsAUTO = {
 	accountName: process.env.loginAccName,
