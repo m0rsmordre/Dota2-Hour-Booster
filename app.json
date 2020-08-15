@@ -7,15 +7,16 @@
   
   "env": {
     "loginAccName": {
-      "description": "Login ID."
+      "description": "Login ID.",
+      "value": ""
     },
     "password": {
       "description": "Password",
-      "value": "Pass"
+      "value": ""
     },
     "shared_secret": {
       "description": "The number of processes to run.",
-      "value": "Shared secret you can find your shared secret in Steam Desktop Authenticator ma Files"
+      "value": ""
     },
     "GameID": {
       "description": "Game to boost",
