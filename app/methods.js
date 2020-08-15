@@ -28,10 +28,5 @@ t = module.exports = {
     // Method for disabling update notifications
     UpdateNotifDisable: function() {
         return config.UpdateNotif_Enable == true;
-    },
-
-    
-        
     }
 }
-
