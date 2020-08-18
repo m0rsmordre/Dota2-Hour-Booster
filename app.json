@@ -15,7 +15,7 @@
       "value": ""
     },
     "shared_secret": {
-      "description": "The number of processes to run.",
+      "description": "",
       "value": ""
     },
     "GameID": {
